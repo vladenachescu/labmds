@@ -1,4 +1,0 @@
-# Cerinte L6 (pentru acasa)
-Completati exercitiile din Laboratorul 6;
-
-## https://hcheval.github.io/teaching/mds2026/Lab6.html

@@ -1,4 +1,0 @@
-# Cerinte L3 (pentru acasa)
-Faceti aplicatia completa si aratati in terminal cum se intampla modificarea, respectiv stergerea unui curs din respectiva aplicatie;
-
-## https://hcheval.github.io/teaching/mds2026/Lab3.html

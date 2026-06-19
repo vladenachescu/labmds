@@ -1,4 +1,0 @@
-# Cerinte L2 (pentru acasa)
-Transformati aplicatia meteo din L1 sa ruleze in interiorul unui container docker;
-
-## https://hcheval.github.io/teaching/mds2026/Lab2.html

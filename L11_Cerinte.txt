@@ -1,5 +1,0 @@
-# Cerinte L11 (pentru acasa)
-Completati exercitiile din Laboratorul 11;
-Faceti capturi de ecran pe parcursul rezolvarii;
-
-## https://hcheval.github.io/teaching/mds2026/Lab11.html

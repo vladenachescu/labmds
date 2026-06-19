@@ -1,5 +1,0 @@
-# Cerinte L8 (pentru acasa)
-Completati exercitiile din Laboratorul 8;
-Aratati panoul de actions pentru teste, deploymentul de pagina web cu link-ul vizibil in bara de URL;
-
-## https://hcheval.github.io/teaching/mds2026/Lab8.html

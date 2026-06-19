@@ -1,5 +1,0 @@
-# Cerinte L13 (pentru acasa)
-Completati exercitiile din Laboratorul 13;
-Faceti capturi de ecran pe parcursul rezolvarii, in special cu aplicatia finala (ca urmare a completarii exercitiilor);
-
-## https://hcheval.github.io/teaching/mds2026/Lab13.html

@@ -1,4 +1,0 @@
-# Cerinte L7 (pentru acasa)
-Completati exercitiile din Laboratorul 7;
-
-## https://hcheval.github.io/teaching/mds2026/Lab7.html

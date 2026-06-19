@@ -1,4 +1,0 @@
-# Cerinte L4 (pentru acasa)
-Incarcati codul cu testele pe github, si aratati rezultatul testelor automate;
-
-## https://hcheval.github.io/teaching/mds2026/Lab4.html

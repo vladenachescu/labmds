@@ -1,5 +1,0 @@
-# Cerinte L10 (pentru acasa)
-Completati exercitiile din Laboratorul 10;
-Faceti capturi de ecran pe parcursul rezolvarii, in principal cu rezultatele din codespaces;
-
-## https://hcheval.github.io/teaching/mds2026/Lab10.html

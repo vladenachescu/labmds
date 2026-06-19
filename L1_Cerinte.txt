@@ -1,5 +1,0 @@
-# Cerinte L1 (pentru acasa)
-Rulati opencode si cereti-i sa creeze aplicatia meteo si cea de TODO;
-Incarcati aplicatia pe github din linia de comanda folosind git;
-
-## https://hcheval.github.io/teaching/mds2026/Lab1.html
