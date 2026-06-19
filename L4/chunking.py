@@ -1,4 +1,3 @@
-import math
 
 def chunk(lst, n):
     """Split lst into consecutive groups of n elements.

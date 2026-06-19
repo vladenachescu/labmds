@@ -69,7 +69,8 @@ class TestListCommand:
     def test_list_limit(self, populated_db, capsys):
         main(["--db", populated_db, "list", "--limit", "1"])
         out = capsys.readouterr().out
-        lines = [l for l in out.strip().split("\n") if l.strip()]
+        lines = [line for line in out.strip().split("\n") if line.strip()]
+
         assert len(lines) == 1
 
 

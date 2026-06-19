@@ -1,5 +1,5 @@
+# ruff: noqa: E402
 import os
-import sys
 import django
 
 # Set the settings module

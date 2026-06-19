@@ -4,7 +4,6 @@ import time
 import requests as http_requests
 
 from rssmds import db
-from rssmds.web import serve
 
 
 @pytest.fixture
@@ -19,7 +18,8 @@ def server(tmp_path):
     conn.commit()
 
     from http.server import HTTPServer
-    from rssmds.web import FeedrHandler, _conn
+    from rssmds.web import FeedrHandler
+
     import rssmds.web as web_module
     web_module._conn = conn
 

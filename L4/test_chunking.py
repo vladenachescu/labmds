@@ -1,4 +1,4 @@
-from hypothesis import given, assume
+from hypothesis import given
 from hypothesis import strategies as st
 from chunking import chunk, flatten
 

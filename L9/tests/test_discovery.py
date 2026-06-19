@@ -1,4 +1,3 @@
-import pytest
 from rssmds.discovery import (
     _extract_link_tags,
     _extract_anchor_links,

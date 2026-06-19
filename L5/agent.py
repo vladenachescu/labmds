@@ -1,6 +1,5 @@
 import json
 import os
-import sys
 import subprocess
 import requests
 
@@ -82,7 +81,8 @@ def add_task(description: str, due_date: str) -> str:
 
 def run_command(command: str) -> str:
     """Run a terminal command after asking the user for confirmation."""
-    print(f"\n[SECURITY WARNING] The agent wants to execute the following command:")
+    print("\n[SECURITY WARNING] The agent wants to execute the following command:")
+
     print(f"  > {command}")
     confirm = input("Do you allow execution? [y/N]: ").strip().lower()
     if confirm in ("y", "yes"):
@@ -249,7 +249,8 @@ def run_agent():
                     )
                     message = response.choices[0].message
                     if message.tool_calls:
-                        print(f"[Agent] LLM requested tool calling:")
+                        print("[Agent] LLM requested tool calling:")
+
                         for tool_call in message.tool_calls:
                             name = tool_call.function.name
                             args = json.loads(tool_call.function.arguments)

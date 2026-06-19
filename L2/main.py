@@ -1,5 +1,4 @@
 import requests
-import json
 
 def get_weather(city_name="Bucharest", lat=44.4323, lon=26.1063):
     url = f"https://api.open-meteo.com/v1/forecast?latitude={lat}&longitude={lon}&current_weather=true"
