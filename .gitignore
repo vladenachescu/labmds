@@ -14,3 +14,5 @@ db.sqlite3
 *.o
 *.html
 !L8/site/*.html
+!**/templates/**/*.html
+

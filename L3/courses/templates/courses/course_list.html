@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Course Catalog</title>
+</head>
+<body>
+    <h1>Courses Catalog</h1>
+    <a href="{% url 'course_create' %}">Add New Course</a>
+    <hr>
+    
+    <h2>Available Courses</h2>
+    <ul>
+        {% for course in courses %}
+            <li>
+                <strong>{{ course.title }}</strong> ({{ course.year }}, {{ course.semester }}) - Instructor: {{ course.instructor }}
+                [Category: {{ course.category.name }}]
+                | <a href="{% url 'course_update' course.pk %}">Edit</a>
+                | <a href="{% url 'course_delete' course.pk %}">Delete</a>
+            </li>
+        {% empty %}
+            <li>No courses in the catalog.</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
