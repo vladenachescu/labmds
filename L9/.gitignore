@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+*.db
+*.egg-info/
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+lab9.md
+answers.md
