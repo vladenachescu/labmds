@@ -1,0 +1,5 @@
+# Cerinte L5 (pentru acasa)
+Rulati aplicatia meteo din L1 folosind cele doua modele (cel simplu si cel cu tool calls);
+Faceti modelul de ollama sa ruleze aplicatia de TODO folosind un prompt in limbaj natural;
+
+## https://hcheval.github.io/teaching/mds2026/Lab5.html

@@ -1,0 +1,5 @@
+# Cerinte L12 (pentru acasa)
+Completati exercitiile din Laboratorul 12;
+Faceti capturi de ecran pe parcursul rezolvarii;
+
+## https://hcheval.github.io/teaching/mds2026/Lab12.html
