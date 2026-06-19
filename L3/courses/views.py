@@ -1,4 +1,4 @@
-from django.shortcuts import render, get_object_or_aligned_to, redirect, get_object_or_404
+from django.shortcuts import render, get_object_or_404, redirect
 from .models import Course, Category
 from django import forms
 
