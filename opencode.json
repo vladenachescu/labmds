@@ -1,0 +1,11 @@
+{
+  "permission": {
+    "bash": {
+      "*": "ask",
+      "python *": "allow"
+    },
+    "edit": { "*": "ask" },
+    "webfetch": "deny",
+    "external_directory": "deny"
+  }
+}
