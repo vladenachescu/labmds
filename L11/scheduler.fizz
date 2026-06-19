@@ -1,0 +1,34 @@
+# FizzBee Request Processing System Model (Lab 11)
+
+always eventually assertion SafelyShutdown:
+  return status == "shutdown"
+
+always eventually assertion Working:
+  return status == "working"
+
+action Init:
+  status = "idle"
+
+atomic fair<strong> action Start:
+  if status == "idle":
+    status = "working"
+
+atomic fair action Finish:
+  if status == "working":
+    status = "idle"
+
+atomic fair<strong> action Shutdown:
+  if status not in ["working", "failed"]:
+    status = "shutdown"
+
+atomic action Fail:
+  if status != "shutdown":
+    status = "failed"
+
+atomic fair action Fix:
+  if status == "failed":
+    status = "idle"
+
+atomic fair action Restart:
+  if status == "shutdown":
+    status = "idle"

@@ -1,0 +1,25 @@
+# FizzBee Traffic Light Model (Lab 11)
+
+action Init:
+  state = "red"
+
+atomic action GoGreen:
+  require state == "red"
+  state = "green"
+
+atomic action GoYellow:
+  require state == "green"
+  state = "yellow"
+
+atomic action GoRed:
+  require state == "yellow"
+  state = "red"
+
+# Exercise 5: Failure and repair states
+atomic action Break:
+  require state != "broken"
+  state = "broken"
+
+atomic action Fix:
+  require state == "broken"
+  state = "red"
