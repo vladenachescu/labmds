@@ -1,0 +1,16 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.hypothesis/
+labs_info/
+download_labs.py
+tasks.json
+db.sqlite3
+*.exe
+*.o
+*.html
+!L8/site/*.html
